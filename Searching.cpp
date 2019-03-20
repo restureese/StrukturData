@@ -5,7 +5,6 @@ using namespace std;
 
 
 void bubble(int *arrBilangan, int juml){
-	
 	int tampung;
 	for(int x = 0; x < juml;x++){
 		for(int i = 0; i < juml-1;i++){
@@ -78,3 +77,4 @@ int main(){
 	binary(bilangan,jumlah,cari);
 	return 0;
 }
+
